@@ -1,2 +1,7 @@
-# nest
-服务端
+# 创建nest项目
+
+```
+npx @nestjs/cli new project-name
+
+```
+
