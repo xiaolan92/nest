@@ -16,8 +16,10 @@ npx @nestjs/cli new project-name
   await app.listen(9080);
 }
 bootstrap();
+  ```
 
- ```
+
+
 
 
 * 创建模块
@@ -34,5 +36,4 @@ bootstrap();
 
   nest g service [文件目录]
   eg:nest g service posts --no-spec
-
 
