@@ -6,7 +6,9 @@ npx @nestjs/cli new project-name
 ```
 
 ***
+
 * 全局路由前缀
+  
   ```
   async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -14,21 +16,23 @@ npx @nestjs/cli new project-name
   await app.listen(9080);
 }
 bootstrap();
-  ```
 
-***
+ ```
+
+
 * 创建模块
-  ```
   nest g mo [文件目录]
   eg: nest g mo posts --no-spec
-  ```
+
 * 创建控制器
-  ```nest g co [文件目录]
+
+  nest g co [文件目录]
   eg: nest g co posts --no-spec
-  ```
+  
+
 * 创建服务类
-  ```
+
   nest g service [文件目录]
-   eg:nest g service posts --no-spec
-  ```
+  eg:nest g service posts --no-spec
+
 
