@@ -38,6 +38,11 @@ bootstrap();
   eg:nest g service posts --no-spec
 
 
+* 生成新资源
+
+nest g res feature/user --no-spec && nest g res feature/post --no-spec
+
+
 ```
 
 ***
